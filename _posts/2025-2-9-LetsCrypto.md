@@ -23,6 +23,8 @@ Let's encrypt together!
 
 最终，我们在 2025/2/9 18:30 左右完成了所有项目 *(详细见 这个[Commit](https://github.com/NeoTeakTeam/letscrypto/commit/e748ee20ea2f88221734ed89a53d03739103bdad))*。
 
+这个项目是我第一次使用C#开发的，也就作为我学习C#的一个项目吧。
+
 ## 安装
 
 首先，你需要克隆这个仓库。
