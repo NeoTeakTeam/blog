@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       hexo:
-        specifier: ^8.0.0
+        specifier: ^8.1.2
         version: 8.1.2(chokidar@3.6.0)
       hexo-generator-archive:
         specifier: ^2.0.0
@@ -33,7 +33,7 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
       hexo-renderer-marked:
-        specifier: ^7.0.0
+        specifier: ^7.0.1
         version: 7.0.1
       hexo-renderer-pug:
         specifier: ^3.0.0
@@ -48,7 +48,7 @@ importers:
         specifier: ^5.5.5
         version: 5.5.5
       hexo-theme-landscape:
-        specifier: ^1.0.0
+        specifier: ^1.1.0
         version: 1.1.0
       hexo-wordcount:
         specifier: ^6.0.1
@@ -346,6 +346,10 @@ packages:
 
   entities@3.0.1:
     resolution: {integrity: sha512-WiyBqoomrwMdFG1e0kqvASYfnlb0lp8M5o5Fw2OFq1hNZxxcNk8Ik0Xm7LxzBhuidnZB/UtBqVCgUz3kBOP51Q==}
+    engines: {node: '>=0.12'}
+
+  entities@4.2.0:
+    resolution: {integrity: sha512-wEJa03bJgqEwPnkUqYdgmcfUXfm6+4hePQhntIvRy/1/+C4dFuhYHsgKBRjbQ6OWBh42P+VhAoCDO77DUh0e/Q==}
     engines: {node: '>=0.12'}
 
   entities@4.4.0:
@@ -1374,7 +1378,7 @@ snapshots:
     dependencies:
       domelementtype: 2.3.0
       domhandler: 5.0.3
-      entities: 4.4.0
+      entities: 4.2.0
 
   domelementtype@2.3.0: {}
 
@@ -1435,6 +1439,8 @@ snapshots:
   entities@2.0.0: {}
 
   entities@3.0.1: {}
+
+  entities@4.2.0: {}
 
   entities@4.4.0: {}
 
