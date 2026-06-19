@@ -365,9 +365,9 @@ rightside_bottom:
 
 # Conversion between Traditional and Simplified Chinese
 translate:
-  enable: false
+  enable: true
   # The text of a button
-  default: 繁
+  default: 简
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 2
   # Time delay
@@ -639,6 +639,7 @@ giscus:
   dark_theme: dark
   js:
   option:
+    lang: zh-CN
 
 # Remark42
 # https://remark42.com/docs/configuration/frontend/
