@@ -19,8 +19,12 @@ nav:
 
 menu:
   首页: / || fas fa-home
-  分类: /categories/ || fas fa-folder-open
-  标签: /tags/ || fas fa-tags
+  页面 || fa-solid fa-book:
+    分类: /categories/ || fas fa-folder-open
+    标签: /tags/ || fas fa-tags
+    归档: /archives/ || fas fa-archive
+    碎碎念: /talkEverywhere/ || fa-solid fa-comment
+  关于: /about/ || fas fa-circle-info
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
@@ -31,7 +35,7 @@ menu:
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
-  theme: darker
+  theme: "pale night"
   macStyle: true
   # Code block height limit (unit: px)
   height_limit: false
@@ -48,8 +52,10 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
-  # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  # fab fa-github: https://github.com/AImixAE || Github || '#24292e'
+  fab fa-github: https://github.com/NeoTeakTeam || NeoTeakTeam Github || '#24292e'
+  fa-brands fa-telegram: https://t.me/AImixAE || Telegram || '#4a7dbe'
+  fas fa-envelope: mailto:contact@neoteak.cn || NeoTeakTeam Email || '#4a7dbe'
 
 # --------------------------------------
 # Image Settings
@@ -58,7 +64,7 @@ social:
 favicon: /img/user/NeoTeak.png
 
 avatar:
-  img: /img/user/AImixAE.png
+  img: /img/user/miku.png
   effect: false
 
 # Disable all banner images
@@ -114,7 +120,7 @@ error_img:
 # A simple 404 page
 error_404:
   enable: true
-  subtitle: 'Page Not Found'
+  subtitle: "没有找到哦~"
   background: /img/error-page.png
 
 post_meta:
@@ -290,7 +296,7 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
+      text: 我的 Github~
       link: https://github.com/AImixAE
   card_announcement:
     enable: true
@@ -343,7 +349,7 @@ aside:
     # The title shows the series name
     series_title: false
     # Order by title or date
-    orderBy: 'date'
+    orderBy: "date"
     # Sort of order. 1, asc for ascending; -1, desc for descending
     order: -1
   card_webinfo:
@@ -367,15 +373,15 @@ rightside_bottom:
 translate:
   enable: true
   # The text of a button
-  default: 简
+  default: 繁
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 2
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
+  msgToTraditionalChinese: "繁"
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
+  msgToSimplifiedChinese: "簡"
 
 # Read Mode
 readmode: true
@@ -873,7 +879,7 @@ canvas_fluttering_ribbon:
 canvas_nest:
   enable: false
   # Color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
-  color: '0,0,255'
+  color: "0,0,255"
   # The opacity of line (0~1)
   opacity: 0.7
   # The z-index property of the background
@@ -922,7 +928,7 @@ lightbox:
 series:
   enable: false
   # Order by title or date
-  orderBy: 'title'
+  orderBy: "title"
   # Sort of order. 1, asc for ascending; -1, desc for descending
   order: 1
   number: true
@@ -956,16 +962,16 @@ chartjs:
   # The default settings are only used when the MD syntax is not specified.
   # General font color for the chart
   fontColor:
-    light: 'rgba(0, 0, 0, 0.8)'
-    dark: 'rgba(255, 255, 255, 0.8)'
+    light: "rgba(0, 0, 0, 0.8)"
+    dark: "rgba(255, 255, 255, 0.8)"
   # General border color for the chart
   borderColor:
-    light: 'rgba(0, 0, 0, 0.1)'
-    dark: 'rgba(255, 255, 255, 0.2)'
+    light: "rgba(0, 0, 0, 0.1)"
+    dark: "rgba(255, 255, 255, 0.2)"
   # Background color for scale labels on radar and polar area charts
   scale_ticks_backdropColor:
-    light: 'transparent'
-    dark: 'transparent'
+    light: "transparent"
+    dark: "transparent"
 
 # Note - Bootstrap Callout
 note:
@@ -1004,8 +1010,8 @@ snackbar:
   enable: false
   position: bottom-left
   # The background color of Toast Notification in light mode and dark mode
-  bg_light: '#49b1f5'
-  bg_dark: '#1f1f1f'
+  bg_light: "#49b1f5"
+  bg_dark: "#1f1f1f"
 
 # Instant.page
 # https://instant.page/
